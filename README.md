@@ -2,9 +2,13 @@
 Handy Scripts for Database data gathering
 
 ### Connection Manager Powershell
-Read ssis packages *dtsx from a folder and save the </DTS:connection Manager> and </DTS:ObjectData> from XML tree
+Read ssis packages *dtsx from a folder and save the </DTS:connection Manager> and </DTS:ObjectData> from XML tree.
+
 Sample Output:
-FileName	   FilePath	          ConnectionName	   ConnectionString
-file1.dtsx	C:\path\file1.dtsx	ms	Data          Source=sql;Initial Catalog=assystdblicense;...
-file1.dtsx	C:\path\file1.dtsx	google	Data      Source=SQLOntheInternte;Initial Catalog=assystdblicense;
-file2.dtsx	C:\path\file2.dtsx	AnotherConn	Data  Source=...
+## Connection Managers
+
+| File Name   | Connection Name | Connection String |
+|------------|----------------|------------------------------------------------|
+| file1.dtsx | a              | Data Source=sql;Initial Catalog=dblicense;... |
+| file1.dtsx | b              | Data Source=intsql;Initial Catalog=dblicense; |
+
